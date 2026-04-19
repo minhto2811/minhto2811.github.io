@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chính sách Bảo mật - InfinyXLabs</title>
+
+    <meta name="title" content="Chính sách Bảo mật - InfinyXLabs">
+    <meta name="description"
+        content="Chính sách bảo mật thông tin người dùng đối với các ứng dụng do InfinyX Labs phát hành.">
+
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/png" />
+
+    <style>
+        /* Định nghĩa biến màu sắc để dễ tùy chỉnh (theo tông xanh của công nghệ) */
+        :root {
+            --primary-color: #3056d3;
+            /* Màu xanh chủ đạo */
+            --secondary-color: #1a2b6d;
+            --text-color: #637381;
+            --heading-color: #090e34;
+            --bg-color: #f4f7ff;
+            --white: #ffffff;
+            --shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Reset cơ bản */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            /* Font chữ hiện đại, dễ đọc */
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.8;
+            /* Khoảng cách dòng thoáng */
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 40px 15px;
+        }
+
+        /* Container chính */
+        .pp-container {
+            max-width: 930px;
+            /* Độ rộng vừa phải để đọc không bị mỏi mắt */
+            margin: 0 auto;
+            background-color: var(--white);
+            padding: 60px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+        }
+
+        /* Header trang */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--heading-color);
+            margin-bottom: 10px;
+        }
+
+        .update-date {
+            font-size: 14px;
+            color: #8898aa;
+            font-style: italic;
+        }
+
+        /* Định dạng nội dung văn bản */
+        p {
+            margin-bottom: 20px;
+        }
+
+        strong {
+            color: var(--heading-color);
+            font-weight: 600;
+        }
+
+        /* Tiêu đề mục lớn (1, 2, 3...) */
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--heading-color);
+            margin-top: 40px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Hiệu ứng gạch chân nhỏ dưới tiêu đề */
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary-color);
+            margin-left: 15px;
+            border-radius: 2px;
+        }
+
+        /* Định dạng danh sách */
+        ul {
+            list-style: none;
+            /* Tắt bullet mặc định */
+            margin-bottom: 25px;
+            padding-left: 5px;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 12px;
+        }
+
+        /* Tạo bullet tùy chỉnh màu xanh */
+        ul li::before {
+            content: "\2022";
+            /* Dấu chấm tròn */
+            color: var(--primary-color);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+            left: 15px;
+            font-size: 1.2em;
+        }
+
+        /* Hộp liên hệ nổi bật */
+        .contact-box {
+            background-color: #f8fa8a30;
+            /* Màu nền vàng nhạt nhẹ nhàng */
+            border: 1px solid #f8fa8a;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .contact-box h2 {
+            margin-top: 0;
+            color: #856404;
+            /* Màu chữ nâu vàng hợp nền */
+        }
+
+        .contact-box h2::after {
+            background-color: #856404;
+        }
+
+        .contact-box p {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        /* Định dạng link email */
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--secondary-color);
+        }
+
+        /* Responsive cho thiết bị di động */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            .pp-container {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="pp-container">
+        <header>
+            <h1>Chính sách Bảo mật</h1>
+            <p class="update-date">Cập nhật lần cuối: 23 tháng 6, 2025</p>
+        </header>
+
+        <p>Chính sách Bảo mật này áp dụng cho tất cả các ứng dụng do <strong>InfinyX Labs</strong> phát hành. Chúng tôi
+            cam kết bảo vệ quyền riêng tư của người dùng và bảo mật dữ liệu cá nhân, bao gồm bất kỳ thông tin nào nhận
+            được từ các dịch vụ của Google.</p>
+
+        <h2>1. Thông tin Chúng tôi Thu thập</h2>
+        <p>Chúng tôi không chủ động thu thập, lưu trữ hoặc xử lý thông tin cá nhân trừ khi cần thiết để cung cấp chức
+            năng cốt lõi của ứng dụng. Tùy thuộc vào các tính năng được sử dụng, ứng dụng có thể truy cập:</p>
+        <ul>
+            <li><strong>Thông tin Tài khoản Google</strong> (nếu người dùng đăng nhập): Họ tên, Địa chỉ email, Ảnh đại
+                diện.</li>
+            <li><strong>Quyền truy cập Micrô</strong> (nếu tính năng được sử dụng): Dữ liệu âm thanh chỉ được truy cập
+                khi người dùng chủ động sử dụng tính năng yêu cầu đầu vào giọng nói hoặc ghi âm. Âm thanh chỉ được xử lý
+                cho tính năng được yêu cầu và không được lưu trữ hoặc chia sẻ trừ khi được nêu rõ.</li>
+        </ul>
+
+        <h2>2. Cách Chúng tôi Sử dụng Dữ liệu</h2>
+        <p>Chúng tôi chỉ sử dụng dữ liệu thu thập được để:</p>
+        <ul>
+            <li>Xác thực người dùng</li>
+            <li>Kích hoạt các tính năng của ứng dụng</li>
+            <li>Cải thiện hiệu suất và độ ổn định</li>
+        </ul>
+        <p>Chúng tôi không bán, cho thuê hoặc trao đổi dữ liệu người dùng cho mục đích quảng cáo hoặc tiếp thị.</p>
+
+        <h2>3. Chia sẻ Dữ liệu</h2>
+        <p>Chúng tôi không chia sẻ dữ liệu cá nhân với bên thứ ba ngoại trừ:</p>
+        <ul>
+            <li>Khi cần thiết để cung cấp dịch vụ do người dùng yêu cầu</li>
+            <li>Khi được pháp luật yêu cầu hoặc có nghĩa vụ pháp lý</li>
+        </ul>
+
+        <h2>4. Bảo vệ Dữ liệu</h2>
+        <p>Chúng tôi áp dụng các biện pháp bảo vệ theo tiêu chuẩn ngành, bao gồm:</p>
+        <ul>
+            <li>Kết nối được mã hóa (HTTPS/TLS)</li>
+            <li>Các hạn chế kiểm soát truy cập</li>
+            <li>Lưu trữ an toàn khi cần lưu giữ dữ liệu</li>
+        </ul>
+
+        <h2>5. Dịch vụ Bên thứ ba</h2>
+        <p>Các ứng dụng của chúng tôi có thể sử dụng các dịch vụ bên thứ ba đáng tin cậy như Firebase Firestore,
+            Firebase Analytics, Google AdMob, Google Sign-In và Google Play In-App Billing. Các nhà cung cấp này có thể
+            thu thập dữ liệu kỹ thuật hoặc dữ liệu sử dụng theo chính sách bảo mật riêng của họ.</p>
+
+        <h2>6. Quyền của Người dùng</h2>
+        <p>Người dùng có thể:</p>
+        <ul>
+            <li>Thu hồi quyền bất kỳ lúc nào thông qua cài đặt thiết bị</li>
+            <li>Xóa tài khoản của họ khỏi ứng dụng</li>
+            <li>Yêu cầu xóa dữ liệu bằng cách liên hệ với chúng tôi</li>
+        </ul>
+
+        <h2>7. Quyền riêng tư của Trẻ em</h2>
+        <p>Các ứng dụng của chúng tôi không hướng đến trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập dữ liệu cá nhân
+            từ trẻ em.</p>
+
+        <div class="contact-box">
+            <h2>8. Liên hệ</h2>
+            <p>Nếu bạn có câu hỏi về chính sách này, hãy liên hệ với chúng tôi qua email:</p>
+            <p><strong>InfinyX Labs</strong><br>
+                📧 <a href="mailto:minhto28.dev@gmail.com">minhto28.dev@gmail.com</a></p>
+        </div>
+
+        <h2>9. Cập nhật Chính sách</h2>
+        <p>Chúng tôi có thể cập nhật chính sách này định kỳ. Các bản cập nhật sẽ được đăng trong ứng dụng hoặc trên các
+            kênh chính thức.</p>
+    </div>
+
+</body>
+
+</html>
